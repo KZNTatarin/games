@@ -1,0 +1,86 @@
+.game-item__page {
+  display: flex;
+  font-family: Open Sans;
+}
+
+.game-item__page a {
+        color: white;
+  }
+
+.game-img {
+  width: 50rem;
+  margin-bottom: 30px;
+}
+
+.game-header {
+    margin-bottom: 30px;
+}
+
+.game-descripion {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.game-details {
+  border: solid 2px white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 10px 15px;
+}
+
+.game-details__left,
+.game-details__right {
+  flex: 1;
+}
+
+.game-platforms,
+.game-metacritic,
+.game-released,
+.game-publisher,
+.game-tags {
+  color: hsla(0, 0%, 100%, 0.2);
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+
+
+.metascore {
+    padding: 7px;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+.red-rating {
+    color: red;
+}
+
+.yellow-rating {
+    color: yellow;
+}
+
+.green-rating {
+    color: rgb(1, 239, 1);
+}
+
+.game-item__links {
+    flex: 0.5;
+}
+
+.screenshots-link {
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: left;
+    margin-bottom: 30px;
+
+    transition: 0.3s;
+}
+
+.screenshots-link:hover {
+    background-color: white;
+    color: black;
+}

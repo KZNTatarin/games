@@ -1,0 +1,20 @@
+
+.search__input {
+    margin-right: 30px;
+    width: 90%;
+}
+
+.games ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.games a {
+    text-decoration: none;
+}
+
+.games ul li{
+    margin-bottom: 30px;
+}
+
