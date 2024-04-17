@@ -9,8 +9,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import Loader from "../UI/Loader/Loader";
-
+import Loader from '../Loader/Loader'
 export default function ScreenShots() {
   const [screens, setScreens] = useState();
   const { slug } = useParams();

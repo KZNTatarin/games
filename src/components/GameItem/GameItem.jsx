@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
-import Loader from '../UI/Loader/Loader'
+import Loader from '../Loader/Loader'
 
 import "./GameItem.css";
 

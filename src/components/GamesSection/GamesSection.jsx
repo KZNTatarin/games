@@ -1,10 +1,10 @@
 import { useEffect, useState, useRef } from "react";
 import { useParams } from "react-router-dom";
 
-import GameCard from "../GameCard/GameCard";
 import useInput from "../../hooks/useInput";
-import FiltresSection from "../Filtres/FiltresSection";
-import Loader from "../UI/Loader/Loader";
+
+import GameCard from "../GameCard/GameCard";
+import Loader from "../Loader/Loader";
 
 import "./GamesSection.css";
 
@@ -48,7 +48,6 @@ export default function TagPage() {
 
   return (
     <>
-      <FiltresSection />
       <section className="games">
         <ul>
           {games.map((game, index) => (
@@ -58,6 +57,7 @@ export default function TagPage() {
             </div>
           ))}
         </ul>
+
         {loading && <Loader />}
       </section>
     </>

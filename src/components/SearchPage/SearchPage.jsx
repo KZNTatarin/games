@@ -2,9 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import { useParams } from "react-router-dom";
 
 import GameCard from "../GameCard/GameCard";
-import useInput from "../../hooks/useInput";
-import FiltresSection from "../Filtres/FiltresSection";
-import Loader from "../UI/Loader/Loader";
+import Loader from "../Loader/Loader";
 
 export default function TagPage() {
   const [games, setGames] = useState([]);
@@ -66,7 +64,6 @@ export default function TagPage() {
 
   return (
     <>
-      <FiltresSection />
       <section className="games">
         <ul>
           {games.map((game) => (

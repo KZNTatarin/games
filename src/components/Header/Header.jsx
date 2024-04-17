@@ -8,7 +8,7 @@ export default function Header() {
   
       <header>
         <div>
-          <a href="/">PhotoLogo</a>
+          <a style={{ color: 'white', padding: '10px 15px', borderRadius: '5px', textDecoration: 'none' }} href="/">LOGO</a>
 
           <form action="">
             <input
@@ -18,7 +18,7 @@ export default function Header() {
               type="text"
             />
           </form>
-          <Link to={`/searchgame/${searchInput}`}>Find</Link>
+          <Link style={{ color: 'white', border: 'solid 1px white', padding: '10px 15px', borderRadius: '5px', textDecoration: 'none' }} to={`/searchgame/${searchInput}`}>FIND</Link>
         </div>
       </header>
     
